@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install -y \
 
 use with:
 
-`docker run -it mietzen/debian-curl-jq:latest curl -sSL https://api.github.com/users/mietzen | jq -r '.name'`
+`docker run -it mietzen/debian-curl-jq:stable curl -sSL https://api.github.com/users/mietzen | jq -r '.name'`
