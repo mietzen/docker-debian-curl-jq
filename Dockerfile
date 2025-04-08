@@ -1,4 +1,4 @@
-FROM debian:stable-20250317
+FROM debian:stable-20250407
 
 RUN apt-get update && apt-get install -y \
         curl \
